@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 data-lang="title">Welcome to our Store</h1>
+        <nav>
+            <a href="products.html" data-lang="products">Products</a>
+            <a href="cart.html" data-lang="cart">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+        <select id="language-selector">
+            <option value="en">🇺🇸 English</option>
+            <option value="uk">🇺🇦 Українська</option>
+            <option value="pl">🇵🇱 Polski</option>
+        </select>
+    </header>
+
+    <main>
+        <h2 data-lang="welcome">Find the best products for you!</h2>
+    </main>
+
+    <script src="js/lang.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
